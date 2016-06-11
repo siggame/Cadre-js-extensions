@@ -37,7 +37,7 @@ var arrayExtensions = {
      * @returns {*} the last element in the array
      */
     last: function(offset) {
-        offset = Max.min(Math.abs(offset) || 0, this.length - 1);
+        offset = Math.min(Math.abs(offset) || 0, this.length - 1);
         return this[this.length - 1 - offset];
     },
 
