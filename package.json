@@ -1,6 +1,6 @@
 {
   "name": "cadre-js-extensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript extensions to base prototypes among shared Cadre projects.",
   "repository": {
     "type": "git",
@@ -8,7 +8,8 @@
   },
   "private": true,
   "dependencies": {
-    "string-format": "0.5.0"
+    "string-format": "0.5.0",
+    "seedrandom": "2.4.2"
   },
   "license": "MIT"
 }

@@ -140,4 +140,4 @@ for(var extension in mathExtensions) {
     }
 }
 
-require("seedrandom");
+require("seedrandom"); // attaches Math.seedrandom
